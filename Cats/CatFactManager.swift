@@ -17,14 +17,15 @@ class CatFactManager: ObservableObject {
 
  URLSession.shared.dataTask(with: request) { data, response, error in
  if let data = data {
+     print(String(data: data, encoding: .utf8)!)
      let decoder = JSONDecoder()
      DispatchQueue.main.async {
          self.fact = try? decoder.decode(CatFact.self, from: data)
      }
- }
+ } //.resume()
 
  }
  }
-        //.resume()
+    
  }
 

@@ -17,6 +17,7 @@
 		0562194F28826385003C8CDD /* CatFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0562194E28826385003C8CDD /* CatFact.swift */; };
 		0562195528826747003C8CDD /* YoMamaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0562195428826747003C8CDD /* YoMamaView.swift */; };
 		05621957288267CD003C8CDD /* YoMamaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05621956288267CD003C8CDD /* YoMamaManager.swift */; };
+		05621959288271A9003C8CDD /* YoMamaJoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05621958288271A9003C8CDD /* YoMamaJoke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		0562194E28826385003C8CDD /* CatFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFact.swift; sourceTree = "<group>"; };
 		0562195428826747003C8CDD /* YoMamaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoMamaView.swift; sourceTree = "<group>"; };
 		05621956288267CD003C8CDD /* YoMamaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoMamaManager.swift; sourceTree = "<group>"; };
+		05621958288271A9003C8CDD /* YoMamaJoke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoMamaJoke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			children = (
 				0562193828825FA2003C8CDD /* CatsApp.swift */,
 				0562194E28826385003C8CDD /* CatFact.swift */,
+				05621958288271A9003C8CDD /* YoMamaJoke.swift */,
 				0562193A28825FA2003C8CDD /* ContentView.swift */,
 				0562194828826022003C8CDD /* CatFactView.swift */,
 				0562195428826747003C8CDD /* YoMamaView.swift */,
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0562193B28825FA2003C8CDD /* ContentView.swift in Sources */,
+				05621959288271A9003C8CDD /* YoMamaJoke.swift in Sources */,
 				0562194928826022003C8CDD /* CatFactView.swift in Sources */,
 				0562194F28826385003C8CDD /* CatFact.swift in Sources */,
 				0562195528826747003C8CDD /* YoMamaView.swift in Sources */,
