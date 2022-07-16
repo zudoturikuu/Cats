@@ -19,6 +19,11 @@ struct ContentView: View {
                 .tabItem {
                     Label("Images of cats", systemImage: "photo")
                 }
+            
+            YoMamaView()
+                .tabItem {
+                    Label("Yo mama jokes", systemImage: "person")
+                }
         }
  
         

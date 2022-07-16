@@ -1,5 +1,5 @@
 //
-//  CatFactManager.swift
+//  YoMamaManager.swift
 //  Cats
 //
 //  Created by Wong Jun heng on 16/7/22.
@@ -7,24 +7,23 @@
 
 import Foundation
 import SwiftUI
-class CatFactManager: ObservableObject {
-    @Published var fact: CatFact?
- func getCatFact() {
- let apiURL = URL(string: "https://catfact.ninja/fact")!
+class YoMamaManager: ObservableObject {
+    @Published var joke: yoMamaJoke?
+ func getYoMamaJoke() {
+ let apiURL = URL(string: "https://api.yomomma.info/")!
  let request = URLRequest(url: apiURL)
      
-     fact = nil
+     //joke = nil
 
  URLSession.shared.dataTask(with: request) { data, response, error in
  if let data = data {
      let decoder = JSONDecoder()
      DispatchQueue.main.async {
-         self.fact = try? decoder.decode(CatFact.self, from: data)
+         self.joke = try? decoder.decode(yoMamaJoke.self, from: data)
      }
  }
 
  }
  }
-        //.resume()
- }
-
+    
+}

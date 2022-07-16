@@ -1,5 +1,5 @@
 //
-//  CatFactView.swift
+//  YoMamaView.swift
 //  Cats
 //
 //  Created by Wong Jun heng on 16/7/22.
@@ -7,12 +7,14 @@
 
 import SwiftUI
 
-struct CatFactView: View {
-    @StateObject var catFactManager = CatFactManager()
+struct YoMamaView: View {
+    
+    @StateObject var yomamaManager = YoMamaManager()
+    
     var body: some View {
         VStack {
-         if let fact = catFactManager.fact {
-         Text(fact.fact)
+            if let joke = yomamaManager.joke {
+                Text(joke.joke)
          .padding()
          } else {
          ProgressView()
@@ -20,13 +22,14 @@ struct CatFactView: View {
          }
          }
          .onAppear {
-         catFactManager.getCatFact()
+             yomamaManager.getYoMamaJoke()
          }
 }
-
-struct CatFactView_Previews: PreviewProvider {
-    static var previews: some View {
-        CatFactView()
     }
-}
+
+
+struct YoMamaView_Previews: PreviewProvider {
+    static var previews: some View {
+        YoMamaView()
+    }
 }

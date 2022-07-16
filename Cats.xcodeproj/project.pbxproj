@@ -14,6 +14,9 @@
 		0562194928826022003C8CDD /* CatFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0562194828826022003C8CDD /* CatFactView.swift */; };
 		0562194B28826031003C8CDD /* CatImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0562194A28826031003C8CDD /* CatImageView.swift */; };
 		0562194D288261FA003C8CDD /* CatFactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0562194C288261FA003C8CDD /* CatFactManager.swift */; };
+		0562194F28826385003C8CDD /* CatFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0562194E28826385003C8CDD /* CatFact.swift */; };
+		0562195528826747003C8CDD /* YoMamaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0562195428826747003C8CDD /* YoMamaView.swift */; };
+		05621957288267CD003C8CDD /* YoMamaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05621956288267CD003C8CDD /* YoMamaManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		0562194828826022003C8CDD /* CatFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactView.swift; sourceTree = "<group>"; };
 		0562194A28826031003C8CDD /* CatImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageView.swift; sourceTree = "<group>"; };
 		0562194C288261FA003C8CDD /* CatFactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactManager.swift; sourceTree = "<group>"; };
+		0562194E28826385003C8CDD /* CatFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFact.swift; sourceTree = "<group>"; };
+		0562195428826747003C8CDD /* YoMamaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoMamaView.swift; sourceTree = "<group>"; };
+		05621956288267CD003C8CDD /* YoMamaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoMamaManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +64,12 @@
 			isa = PBXGroup;
 			children = (
 				0562193828825FA2003C8CDD /* CatsApp.swift */,
+				0562194E28826385003C8CDD /* CatFact.swift */,
 				0562193A28825FA2003C8CDD /* ContentView.swift */,
-				0562194C288261FA003C8CDD /* CatFactManager.swift */,
 				0562194828826022003C8CDD /* CatFactView.swift */,
+				0562195428826747003C8CDD /* YoMamaView.swift */,
+				05621956288267CD003C8CDD /* YoMamaManager.swift */,
+				0562194C288261FA003C8CDD /* CatFactManager.swift */,
 				0562194A28826031003C8CDD /* CatImageView.swift */,
 				0562193C28825FA5003C8CDD /* Assets.xcassets */,
 				0562193E28825FA5003C8CDD /* Preview Content */,
@@ -148,7 +157,10 @@
 			files = (
 				0562193B28825FA2003C8CDD /* ContentView.swift in Sources */,
 				0562194928826022003C8CDD /* CatFactView.swift in Sources */,
+				0562194F28826385003C8CDD /* CatFact.swift in Sources */,
+				0562195528826747003C8CDD /* YoMamaView.swift in Sources */,
 				0562194D288261FA003C8CDD /* CatFactManager.swift in Sources */,
+				05621957288267CD003C8CDD /* YoMamaManager.swift in Sources */,
 				0562193928825FA2003C8CDD /* CatsApp.swift in Sources */,
 				0562194B28826031003C8CDD /* CatImageView.swift in Sources */,
 			);
