@@ -15,7 +15,7 @@ struct YoMamaView: View {
         VStack {
             if let joke = YoMamaManager.joke {
                 Text(joke.joke)
-         .padding()
+                    .padding()
          } else {
          ProgressView()
          .progressViewStyle(.circular)
