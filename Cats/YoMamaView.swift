@@ -13,7 +13,7 @@ struct YoMamaView: View {
     
     var body: some View {
         VStack {
-            if let joke = yomamaManager.joke {
+            if let joke = YoMamaManager.joke {
                 Text(joke.joke)
          .padding()
          } else {

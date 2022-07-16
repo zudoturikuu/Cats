@@ -7,19 +7,21 @@
 
 import Foundation
 import SwiftUI
+
 class YoMamaManager: ObservableObject {
-    @Published var joke: yoMamaJoke?
+    @Published var joke: YoMamaManager?
+    
  func getYoMamaJoke() {
  let apiURL = URL(string: "https://api.yomomma.info/")!
  let request = URLRequest(url: apiURL)
      
-     //joke = nil
+     joke = nil
 
  URLSession.shared.dataTask(with: request) { data, response, error in
  if let data = data {
      let decoder = JSONDecoder()
      DispatchQueue.main.async {
-         self.joke = try? decoder.decode(yoMamaJoke.self, from: data)
+         self.joke = try? decoder.decode(YoMamaManager.self, from: data)
      }
  }
 
