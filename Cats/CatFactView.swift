@@ -12,11 +12,15 @@ struct CatFactView: View {
     var body: some View {
         VStack {
          if let fact = catFactManager.fact {
+             
          Text(fact.fact)
          .padding()
+             
          } else {
+             
          ProgressView()
          .progressViewStyle(.circular)
+             
          }
          }
          .onAppear {
