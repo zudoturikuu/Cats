@@ -11,6 +11,8 @@
 		0562193B28825FA2003C8CDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0562193A28825FA2003C8CDD /* ContentView.swift */; };
 		0562193D28825FA5003C8CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0562193C28825FA5003C8CDD /* Assets.xcassets */; };
 		0562194028825FA5003C8CDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0562193F28825FA5003C8CDD /* Preview Assets.xcassets */; };
+		0562194928826022003C8CDD /* CatFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0562194828826022003C8CDD /* CatFactView.swift */; };
+		0562194B28826031003C8CDD /* CatImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0562194A28826031003C8CDD /* CatImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0562193A28825FA2003C8CDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0562193C28825FA5003C8CDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0562193F28825FA5003C8CDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0562194828826022003C8CDD /* CatFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactView.swift; sourceTree = "<group>"; };
+		0562194A28826031003C8CDD /* CatImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				0562193828825FA2003C8CDD /* CatsApp.swift */,
 				0562193A28825FA2003C8CDD /* ContentView.swift */,
+				0562194828826022003C8CDD /* CatFactView.swift */,
+				0562194A28826031003C8CDD /* CatImageView.swift */,
 				0562193C28825FA5003C8CDD /* Assets.xcassets */,
 				0562193E28825FA5003C8CDD /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0562193B28825FA2003C8CDD /* ContentView.swift in Sources */,
+				0562194928826022003C8CDD /* CatFactView.swift in Sources */,
 				0562193928825FA2003C8CDD /* CatsApp.swift in Sources */,
+				0562194B28826031003C8CDD /* CatImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
