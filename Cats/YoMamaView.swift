@@ -13,12 +13,12 @@ struct YoMamaView: View {
     
     var body: some View {
         VStack {
-            if let joke = yomamaManager.joke {
+            if let joke = yomamaManager.$joke {
                 
                 Text(joke.joke)
-                    .padding()
+            .padding()
                 
-         } else {
+            } else {
              
          ProgressView()
          .progressViewStyle(.circular)

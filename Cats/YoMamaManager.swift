@@ -9,7 +9,8 @@ import Foundation
 import SwiftUI
 
 class YoMamaManager: ObservableObject {
-    @Published var joke: YoMamaJoke?
+    
+@Published var joke: YoMamaJoke?
     
  func getYoMamaJoke() {
  let apiURL = URL(string: "https://api.yomomma.info/")!

@@ -18,10 +18,10 @@ struct CatFactView: View {
              
          } else {
              
-         ProgressView()
-         .progressViewStyle(.circular)
-             
-         }
+             ProgressView()
+             .progressViewStyle(.circular)
+                 
+             }
          }
          .onAppear {
          catFactManager.getCatFact()
