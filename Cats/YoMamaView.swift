@@ -5,35 +5,33 @@
 //  Created by Wong Jun heng on 16/7/22.
 //
 
+
 import SwiftUI
 
 struct YoMamaView: View {
-    
     @StateObject var yomamaManager = YoMamaManager()
-    
     var body: some View {
         VStack {
-            if let joke = yomamaManager.$joke {
-                
+            if let joke = yomamaManager.joke {
+             
                 Text(joke.joke)
-            .padding()
-                
-            } else {
+         .padding()
              
-         ProgressView()
-         .progressViewStyle(.circular)
+         } else {
              
-         }
+             ProgressView()
+             .progressViewStyle(.circular)
+                 
+             }
          }
          .onAppear {
              yomamaManager.getYoMamaJoke()
          }
 }
-    }
 
-
-struct YoMamaView_Previews: PreviewProvider {
+struct CatFactView_Previews: PreviewProvider {
     static var previews: some View {
         YoMamaView()
     }
+}
 }
